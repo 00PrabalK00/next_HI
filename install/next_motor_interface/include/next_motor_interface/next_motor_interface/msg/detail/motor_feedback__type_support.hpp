@@ -1,0 +1,1 @@
+/home/next/next_HI/build/next_motor_interface/rosidl_generator_cpp/next_motor_interface/msg/detail/motor_feedback__type_support.hpp

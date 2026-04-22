@@ -1,0 +1,1 @@
+/home/next/next_HI/build/next_motor_interface/ament_cmake_environment_hooks/pythonpath.sh

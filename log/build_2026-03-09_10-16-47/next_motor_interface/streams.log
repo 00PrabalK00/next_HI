@@ -1,0 +1,200 @@
+[0.018s] Invoking command in '/home/next/next_HI/build/next_motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/next/next_ros2/install/next_ekf:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/map_editor:/opt/ros/humble /usr/bin/cmake --build /home/next/next_HI/build/next_motor_interface -- -j8 -l8
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target kinco_lift_node3_std[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_generator_c[0m
+[0.081s] [  2%] Built target next_motor_interface__cpp
+[0.092s] [ 11%] Built target next_motor_interface__rosidl_generator_c
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_fastrtps_cpp[0m
+[0.099s] [ 11%] Built target ament_cmake_python_copy_next_motor_interface
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_introspection_cpp[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_cpp[0m
+[0.100s] [ 17%] Built target kinco_lift_node3_std
+[0.108s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_fastrtps_c[0m
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_introspection_c[0m
+[0.122s] [ 25%] Built target next_motor_interface__rosidl_typesupport_fastrtps_cpp
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_c[0m
+[0.131s] [ 34%] Built target next_motor_interface__rosidl_typesupport_cpp
+[0.139s] [ 42%] Built target next_motor_interface__rosidl_typesupport_introspection_c
+[0.139s] [ 51%] Built target next_motor_interface__rosidl_typesupport_introspection_cpp
+[0.142s] [ 60%] Built target next_motor_interface__rosidl_typesupport_fastrtps_c
+[0.149s] [ 68%] Built target next_motor_interface__rosidl_typesupport_c
+[0.177s] [ 68%] Built target next_motor_interface
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target kinco_hardware_interface[0m
+[0.204s] [ 71%] Built target next_motor_interface__py
+[0.217s] [ 77%] Built target kinco_hardware_interface
+[0.219s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_generator_py[0m
+[0.236s] [ 82%] Built target next_motor_interface__rosidl_generator_py
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_c__pyext[0m
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_introspection_c__pyext[0m
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.267s] [ 88%] Built target next_motor_interface__rosidl_typesupport_introspection_c__pyext
+[0.268s] [ 94%] Built target next_motor_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.270s] [100%] Built target next_motor_interface__rosidl_typesupport_c__pyext
+[0.542s] running egg_info
+[0.543s] writing next_motor_interface.egg-info/PKG-INFO
+[0.544s] writing dependency_links to next_motor_interface.egg-info/dependency_links.txt
+[0.544s] writing top-level names to next_motor_interface.egg-info/top_level.txt
+[0.547s] reading manifest file 'next_motor_interface.egg-info/SOURCES.txt'
+[0.548s] writing manifest file 'next_motor_interface.egg-info/SOURCES.txt'
+[0.583s] [100%] Built target ament_cmake_python_build_next_motor_interface_egg
+[0.595s] Invoked command in '/home/next/next_HI/build/next_motor_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/next/next_ros2/install/next_ekf:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/map_editor:/opt/ros/humble /usr/bin/cmake --build /home/next/next_HI/build/next_motor_interface -- -j8 -l8
+[0.605s] Invoking command in '/home/next/next_HI/build/next_motor_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/next/next_ros2/install/next_ekf:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/map_editor:/opt/ros/humble /usr/bin/cmake --install /home/next/next_HI/build/next_motor_interface
+[0.614s] -- Install configuration: ""
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/rosidl_interfaces/next_motor_interface
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__functions.h
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__struct.h
+[0.615s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__type_support.h
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__functions.c
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/motor_feedback.h
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_generator_c__visibility_control.h
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/library_path.sh
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/library_path.dsv
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_generator_c.so
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg
+[0.616s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_fastrtps_c.h
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_fastrtps_c.so
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__type_support.c
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_introspection_c.h
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_introspection_c.so
+[0.617s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_c.so
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__type_support.hpp
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__traits.hpp
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__builder.hpp
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__struct.hpp
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/motor_feedback.hpp
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface
+[0.618s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/dds_fastrtps
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__type_support.cpp
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_introspection_cpp.hpp
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_introspection_cpp.so
+[0.619s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_cpp.so
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/pythonpath.sh
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/pythonpath.dsv
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info
+[0.620s] -- Installing: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/top_level.txt
+[0.620s] -- Installing: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.620s] -- Installing: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.620s] -- Installing: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_c.c
+[0.620s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_introspection_c.c
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/__init__.py
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg/__init__.py
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg/_motor_feedback.py
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg/_motor_feedback_s.c
+[0.621s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/libnext_motor_interface__rosidl_generator_py.so
+[0.667s] Listing '/home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface'...
+[0.667s] Listing '/home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg'...
+[0.673s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.673s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.674s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.674s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_generator_py.so
+[0.674s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/msg/MotorFeedback.idl
+[0.674s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/msg/MotorFeedback.msg
+[0.675s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/kinco_hardware_interface.xml
+[0.675s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libkinco_hardware_interface.so
+[0.675s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch
+[0.675s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/slam.launch.py
+[0.675s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/nav2.launch.py
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/lift_node3.launch.py
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/localization.launch.py
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/robot_control.launch.py
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/lift_node3.yaml
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0
+[0.676s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/bus.yml
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/right_can0.eds
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/ros2_controllers.yaml
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/left_can0.eds
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/nav2_params.yaml
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/slam.rviz
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/mapper_params_online_async.yaml
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf
+[0.677s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot.urdf.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/ros2_control_kinco.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/imu2.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot_core copy 2.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/ros2_control_mock.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/gazebo_control.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/imu.xacro
+[0.678s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/lidar.xacro
+[0.679s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot_core copy.xacro
+[0.679s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/face.xacro
+[0.679s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/inertial_macros.xacro
+[0.679s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/ros2_control.xacro
+[0.679s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/lidar copy.xacro
+[0.680s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot_core.xacro
+[0.680s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/maps
+[0.680s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/maps/README.md
+[0.680s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/rviz
+[0.680s] -- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/rviz/nav2.rviz
+[0.680s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/scripts
+[0.680s] -- Installing: /home/next/next_HI/install/next_motor_interface/lib/next_motor_interface/kinco_lift_node3_std
+[0.685s] -- Set runtime path of "/home/next/next_HI/install/next_motor_interface/lib/next_motor_interface/kinco_lift_node3_std" to ""
+[0.685s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/package_run_dependencies/next_motor_interface
+[0.685s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/parent_prefix_path/next_motor_interface
+[0.685s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/ament_prefix_path.sh
+[0.685s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/ament_prefix_path.dsv
+[0.685s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/path.sh
+[0.686s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/path.dsv
+[0.686s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.bash
+[0.686s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.sh
+[0.686s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.zsh
+[0.686s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.dsv
+[0.686s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/package.dsv
+[0.687s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/packages/next_motor_interface
+[0.687s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/next_motor_interface
+[0.687s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_cExport.cmake
+[0.688s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_cExport-noconfig.cmake
+[0.688s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[0.688s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.688s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.688s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.689s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cExport.cmake
+[0.689s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.689s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_cppExport.cmake
+[0.689s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.690s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.690s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.690s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.690s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cppExport.cmake
+[0.690s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.691s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_pyExport.cmake
+[0.691s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_pyExport-noconfig.cmake
+[0.691s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/rosidl_cmake-extras.cmake
+[0.691s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.692s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.692s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.692s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.692s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.692s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.693s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interfaceConfig.cmake
+[0.693s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interfaceConfig-version.cmake
+[0.693s] -- Installing: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/package.xml
+[0.696s] Invoked command in '/home/next/next_HI/build/next_motor_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/next/next_ros2/install/next_ekf:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/map_editor:/opt/ros/humble /usr/bin/cmake --install /home/next/next_HI/build/next_motor_interface

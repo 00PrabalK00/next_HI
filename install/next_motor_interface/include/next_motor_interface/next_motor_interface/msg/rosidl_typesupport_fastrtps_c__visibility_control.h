@@ -1,0 +1,1 @@
+/home/next/next_HI/build/next_motor_interface/rosidl_typesupport_fastrtps_c/next_motor_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

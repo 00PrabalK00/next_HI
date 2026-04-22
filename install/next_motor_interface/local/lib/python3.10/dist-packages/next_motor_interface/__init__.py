@@ -1,0 +1,1 @@
+/home/next/next_HI/build/next_motor_interface/rosidl_generator_py/next_motor_interface/__init__.py

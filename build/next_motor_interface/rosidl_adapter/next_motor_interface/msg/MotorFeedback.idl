@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from next_motor_interface/msg/MotorFeedback.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module next_motor_interface {
+  module msg {
+    @verbatim (language="comment", text=
+      "Motor feedback message for Kinco drives" "\n"
+      "Published at controller update rate (typically 100 Hz)")
+    struct MotorFeedback {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Right wheel (Motor ID 1)")
+      double right_wheel_position_rad;
+
+      double right_wheel_velocity_rad_s;
+
+      double right_wheel_command_rad_s;
+
+      uint16 right_wheel_statusword;
+
+      @verbatim (language="comment", text=
+        "Left wheel (Motor ID 2)")
+      double left_wheel_position_rad;
+
+      double left_wheel_velocity_rad_s;
+
+      double left_wheel_command_rad_s;
+
+      uint16 left_wheel_statusword;
+    };
+  };
+};

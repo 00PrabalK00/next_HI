@@ -1,0 +1,27 @@
+kinco_lift_node3_std:
+  ros__parameters:
+
+    can_interface: "can0"
+    node_id: 3
+
+    allowed_master_topic: "/allowed_master_on"
+    cmd_rpm_topic: "/lift/cmd_rpm"
+
+    state_rpm_topic: "/lift/state_rpm"
+    statusword_topic: "/lift/statusword"
+    digital_inputs_topic: "/lift/digital_inputs"
+    enabled_topic: "/lift/enabled"
+    lift_status_topic: "/lift/status"
+    # IMPORTANT FIX
+    rpdo_cobid: 0x203
+    tpdo_cobid: 0x183
+
+    enable_limit_guard: true
+    di_poll_hz: 100.0
+    limit_low_active_high: true
+    limit_high_active_high: true
+    limit_low_bit: 1
+    limit_high_bit: 0
+    motion_start_rpm: 50.0
+    motion_stop_rpm: 20.0
+    stale_tpdo_stop_s: 0.3

@@ -1,0 +1,9 @@
+<library path="kinco_hardware_interface">
+  <class name="next_motor_interface/KincoHardwareInterface" 
+         type="next_motor_interface::KincoHardwareInterface" 
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Custom hardware interface for Kinco motor drives via CANopen
+    </description>
+  </class>
+</library>

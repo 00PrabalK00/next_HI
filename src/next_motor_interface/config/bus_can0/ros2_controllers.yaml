@@ -1,0 +1,43 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    wheel_controller:
+      type: diff_drive_controller/DiffDriveController
+
+wheel_controller:
+  ros__parameters:
+    left_wheel_names: ["left_wheel_joint"]
+    right_wheel_names: ["right_wheel_joint"]
+
+    # Match this to your ROS1 robot
+    wheel_separation: 0.52   # m - tuned to match real rotation (was 0.54)
+    wheel_radius:     0.10   # m
+
+    # CRITICAL: Use encoder feedback for odometry (closed-loop)
+    open_loop: false
+    
+    # Frames - Use a dummy odom frame for controller TF, EKF will publish the real one
+    base_frame_id: base_footprint
+    odom_frame_id:  odom  # Different frame so it doesn't conflict with EKF
+    enable_odom_tf: false          # Let it publish to odom_wheels->base_footprint
+    publish_odom: true            # Publish odometry message for EKF
+
+    use_stamped_vel: false
+    cmd_vel_timeout: 0.5
+
+    publish_rate: 50.0
+    publish_cmd: true
+
+    linear.x.has_velocity_limits: true
+    linear.x.max_velocity: 1.0
+    linear.x.has_acceleration_limits: true
+    linear.x.max_acceleration: 1.5
+
+    angular.z.has_velocity_limits: true
+    angular.z.max_velocity: 1.5
+    angular.z.has_acceleration_limits: true
+    angular.z.max_acceleration: 2.5

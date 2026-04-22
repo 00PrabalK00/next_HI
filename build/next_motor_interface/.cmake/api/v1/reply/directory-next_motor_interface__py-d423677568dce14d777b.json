@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "next_motor_interface__py",
+		"source" : "/home/next/next_HI/build/next_motor_interface/next_motor_interface__py"
+	}
+}

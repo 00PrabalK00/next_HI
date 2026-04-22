@@ -1,0 +1,6 @@
+{
+  "package_name": "next_motor_interface",
+  "non_idl_tuples": [
+    "/home/next/next_HI/src/next_motor_interface:msg/MotorFeedback.msg"
+  ]
+}

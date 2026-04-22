@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (next_motor_interface) JobQueued: {'identifier': 'next_motor_interface', 'dependencies': OrderedDict()}
+[0.000651] (next_motor_interface) JobStarted: {'identifier': 'next_motor_interface'}
+[0.019110] (next_motor_interface) JobProgress: {'identifier': 'next_motor_interface', 'progress': 'cmake'}
+[0.021629] (next_motor_interface) JobProgress: {'identifier': 'next_motor_interface', 'progress': 'build'}
+[0.021760] (next_motor_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/next/next_HI/build/next_motor_interface', '--', '-j8', '-l8'], 'cwd': '/home/next/next_HI/build/next_motor_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/next'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'next'), ('SSH_CLIENT', '192.168.20.29 52468 22'), ('LC_TIME', 'th_TH.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/next/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/next/next_ros2/install/slamware_ros_sdk/lib:/home/next/next_ros2/install/next2_msgs/lib:/home/next/next_ros2/install/laser_filters/lib:/home/next/next_UI/install/next_ros2ws_interfaces/lib:/home/next/next_UI/install/next_nav2_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/next/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/next'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-de556c02-2a46-4d16-a64b-34d6c40cdafc.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_MONETARY', 'th_TH.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/next/next_ros2/install:/home/next/next_UI/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'next'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '10'), ('VSCODE_CLI_REQUIRE_TOKEN', '9f3b3924-55c7-4ce2-9cdc-29754c4cfdb5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/next/.local/bin:/home/next/.codex/tmp/arg0/codex-arg0dPoKVy:/home/next/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/home/next/.local/bin:/home/next/next_UI/install/map_editor/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/next/.vscode-server/extensions/openai.chatgpt-26.304.20706-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/next/.vscode-server'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS2CLI_DISABLE_DAEMON', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/next/next_ros2/install/xbee:/home/next/next_ros2/install/sllidar_ros2:/home/next/next_ros2/install/slamware_ros_sdk:/home/next/next_ros2/install/next_ekf:/home/next/next_ros2/install/next2_teleop:/home/next/next_ros2/install/next2_system:/home/next/next_ros2/install/next2_nav2:/home/next/next_ros2/install/next2_msgs:/home/next/next_ros2/install/next2_motor:/home/next/next_ros2/install/next2_log:/home/next/next_ros2/install/next2_io:/home/next/next_ros2/install/next2_indicator:/home/next/next_ros2/install/next2_dynamic_parameter:/home/next/next_ros2/install/next2_bms:/home/next/next_ros2/install/laser_filters:/home/next/next_ros2/install/dan_ros_motor:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/next_ros2ws_interfaces:/home/next/next_UI/install/next_nav2_controller:/home/next/next_UI/install/my_bot:/home/next/next_UI/install/map_editor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019cd148-9243-7731-a869-885a2af353a5'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/next/next_HI/build/next_motor_interface'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.20.29 52468 192.168.10.175 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/next/next_ros2/install/slamware_ros_sdk/local/lib/python3.10/dist-packages:/home/next/next_ros2/install/next_ekf/lib/python3.10/site-packages:/home/next/next_ros2/install/next2_msgs/local/lib/python3.10/dist-packages:/home/next/next_ros2/install/next2_bms/local/lib/python3.10/dist-packages:/home/next/next_UI/install/next_ros2ws_web/lib/python3.10/site-packages:/home/next/next_UI/install/next_ros2ws_tools/lib/python3.10/site-packages:/home/next/next_UI/install/next_ros2ws_core/lib/python3.10/site-packages:/home/next/next_UI/install/next_ros2ws_interfaces/local/lib/python3.10/dist-packages:/home/next/next_UI/install/map_editor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/next/next_ros2/install/xbee:/home/next/next_ros2/install/sllidar_ros2:/home/next/next_ros2/install/slamware_ros_sdk:/home/next/next_ros2/install/next2_teleop:/home/next/next_ros2/install/next2_system:/home/next/next_ros2/install/next2_nav2:/home/next/next_ros2/install/next2_msgs:/home/next/next_ros2/install/next2_motor:/home/next/next_ros2/install/next2_log:/home/next/next_ros2/install/next2_io:/home/next/next_ros2/install/next2_indicator:/home/next/next_ros2/install/next2_dynamic_parameter:/home/next/next_ros2/install/next2_bms:/home/next/next_ros2/install/laser_filters:/home/next/next_ros2/install/dan_ros_motor:/home/next/next_UI/install/next_ros2ws_interfaces:/home/next/next_UI/install/next_nav2_controller:/home/next/next_UI/install/my_bot:/home/next/next_ros2/install/next_ekf:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/map_editor:/opt/ros/humble')]), 'shell': False}
+[0.100228] (-) TimerEvent: {}
+[0.115522] (next_motor_interface) StdoutLine: {'line': b'[  2%] Built target next_motor_interface__cpp\n'}
+[0.174863] (next_motor_interface) StdoutLine: {'line': b'[  8%] Built target kinco_lift_node3_std\n'}
+[0.200546] (-) TimerEvent: {}
+[0.222519] (next_motor_interface) StdoutLine: {'line': b'[ 17%] Built target next_motor_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.263845] (next_motor_interface) StdoutLine: {'line': b'[ 25%] Built target next_motor_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.301034] (-) TimerEvent: {}
+[0.312965] (next_motor_interface) StdoutLine: {'line': b'[ 34%] Built target next_motor_interface__rosidl_typesupport_cpp\n'}
+[0.369160] (next_motor_interface) StdoutLine: {'line': b'[ 34%] Built target ament_cmake_python_symlink_next_motor_interface\n'}
+[0.387636] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_generator_c\n'}
+[0.404805] (-) TimerEvent: {}
+[0.409411] (next_motor_interface) StdoutLine: {'line': b'[ 42%] Built target next_motor_interface__rosidl_generator_c\n'}
+[0.504955] (-) TimerEvent: {}
+[0.605182] (-) TimerEvent: {}
+[0.705403] (-) TimerEvent: {}
+[0.806589] (-) TimerEvent: {}
+[0.911787] (-) TimerEvent: {}
+[0.996018] (next_motor_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.996451] (next_motor_interface) StdoutLine: {'line': b'writing next_motor_interface.egg-info/PKG-INFO\n'}
+[0.996599] (next_motor_interface) StdoutLine: {'line': b'writing dependency_links to next_motor_interface.egg-info/dependency_links.txt\n'}
+[0.996711] (next_motor_interface) StdoutLine: {'line': b'writing top-level names to next_motor_interface.egg-info/top_level.txt\n'}
+[1.001335] (next_motor_interface) StdoutLine: {'line': b"reading manifest file 'next_motor_interface.egg-info/SOURCES.txt'\n"}
+[1.002759] (next_motor_interface) StdoutLine: {'line': b"writing manifest file 'next_motor_interface.egg-info/SOURCES.txt'\n"}
+[1.011886] (-) TimerEvent: {}
+[1.054546] (next_motor_interface) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_build_next_motor_interface_egg\n'}
+[1.071020] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_c\n'}
+[1.089585] (next_motor_interface) StdoutLine: {'line': b'[ 51%] Built target next_motor_interface__rosidl_typesupport_c\n'}
+[1.111984] (-) TimerEvent: {}
+[1.118305] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_introspection_c\n'}
+[1.141014] (next_motor_interface) StdoutLine: {'line': b'[ 60%] Built target next_motor_interface__rosidl_typesupport_introspection_c\n'}
+[1.165060] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_fastrtps_c\n'}
+[1.183548] (next_motor_interface) StdoutLine: {'line': b'[ 68%] Built target next_motor_interface__rosidl_typesupport_fastrtps_c\n'}
+[1.212079] (-) TimerEvent: {}
+[1.232655] (next_motor_interface) StdoutLine: {'line': b'[ 68%] Built target next_motor_interface\n'}
+[1.276256] (next_motor_interface) StdoutLine: {'line': b'[ 71%] Built target next_motor_interface__py\n'}
+[1.313808] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target kinco_hardware_interface\n'}
+[1.314042] (-) TimerEvent: {}
+[1.343255] (next_motor_interface) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/kinco_hardware_interface.dir/src/kinco_hardware_interface.cpp.o\n'}
+[1.414143] (-) TimerEvent: {}
+[1.515409] (-) TimerEvent: {}
+[1.615792] (-) TimerEvent: {}
+[1.716799] (-) TimerEvent: {}
+[1.817000] (-) TimerEvent: {}
+[1.917176] (-) TimerEvent: {}
+[2.017499] (-) TimerEvent: {}
+[2.120791] (-) TimerEvent: {}
+[2.220986] (-) TimerEvent: {}
+[2.321189] (-) TimerEvent: {}
+[2.422070] (-) TimerEvent: {}
+[2.522404] (-) TimerEvent: {}
+[2.622815] (-) TimerEvent: {}
+[2.724588] (-) TimerEvent: {}
+[2.825008] (-) TimerEvent: {}
+[2.925373] (-) TimerEvent: {}
+[3.026562] (-) TimerEvent: {}
+[3.126767] (-) TimerEvent: {}
+[3.226981] (-) TimerEvent: {}
+[3.327190] (-) TimerEvent: {}
+[3.427384] (-) TimerEvent: {}
+[3.527575] (-) TimerEvent: {}
+[3.627778] (-) TimerEvent: {}
+[3.728130] (-) TimerEvent: {}
+[3.829816] (-) TimerEvent: {}
+[3.930145] (-) TimerEvent: {}
+[4.030342] (-) TimerEvent: {}
+[4.130672] (-) TimerEvent: {}
+[4.230879] (-) TimerEvent: {}
+[4.331215] (-) TimerEvent: {}
+[4.431583] (-) TimerEvent: {}
+[4.532358] (-) TimerEvent: {}
+[4.632652] (-) TimerEvent: {}
+[4.732983] (-) TimerEvent: {}
+[4.835237] (-) TimerEvent: {}
+[4.935784] (-) TimerEvent: {}
+[5.036054] (-) TimerEvent: {}
+[5.136387] (-) TimerEvent: {}
+[5.238811] (-) TimerEvent: {}
+[5.339202] (-) TimerEvent: {}
+[5.439535] (-) TimerEvent: {}
+[5.540372] (-) TimerEvent: {}
+[5.640631] (-) TimerEvent: {}
+[5.741571] (-) TimerEvent: {}
+[5.842647] (-) TimerEvent: {}
+[5.943026] (-) TimerEvent: {}
+[6.043247] (-) TimerEvent: {}
+[6.143569] (-) TimerEvent: {}
+[6.244829] (-) TimerEvent: {}
+[6.345072] (-) TimerEvent: {}
+[6.445437] (-) TimerEvent: {}
+[6.546139] (-) TimerEvent: {}
+[6.646402] (-) TimerEvent: {}
+[6.746601] (-) TimerEvent: {}
+[6.846806] (-) TimerEvent: {}
+[6.947035] (-) TimerEvent: {}
+[7.047220] (-) TimerEvent: {}
+[7.147539] (-) TimerEvent: {}
+[7.247856] (-) TimerEvent: {}
+[7.348243] (-) TimerEvent: {}
+[7.448447] (-) TimerEvent: {}
+[7.548787] (-) TimerEvent: {}
+[7.649141] (-) TimerEvent: {}
+[7.749456] (-) TimerEvent: {}
+[7.850305] (-) TimerEvent: {}
+[7.951375] (-) TimerEvent: {}
+[8.051565] (-) TimerEvent: {}
+[8.151789] (-) TimerEvent: {}
+[8.252245] (-) TimerEvent: {}
+[8.352598] (-) TimerEvent: {}
+[8.452955] (-) TimerEvent: {}
+[8.553786] (-) TimerEvent: {}
+[8.654234] (-) TimerEvent: {}
+[8.755455] (-) TimerEvent: {}
+[8.855645] (-) TimerEvent: {}
+[8.955851] (-) TimerEvent: {}
+[9.056806] (-) TimerEvent: {}
+[9.157070] (-) TimerEvent: {}
+[9.257277] (-) TimerEvent: {}
+[9.362806] (-) TimerEvent: {}
+[9.463866] (-) TimerEvent: {}
+[9.564055] (-) TimerEvent: {}
+[9.664257] (-) TimerEvent: {}
+[9.764445] (-) TimerEvent: {}
+[9.864633] (-) TimerEvent: {}
+[9.964794] (-) TimerEvent: {}
+[10.064992] (-) TimerEvent: {}
+[10.167789] (-) TimerEvent: {}
+[10.268004] (-) TimerEvent: {}
+[10.368346] (-) TimerEvent: {}
+[10.468549] (-) TimerEvent: {}
+[10.570959] (-) TimerEvent: {}
+[10.671152] (-) TimerEvent: {}
+[10.771342] (-) TimerEvent: {}
+[10.874116] (-) TimerEvent: {}
+[10.974303] (-) TimerEvent: {}
+[11.074482] (-) TimerEvent: {}
+[11.174881] (-) TimerEvent: {}
+[11.275253] (-) TimerEvent: {}
+[11.375582] (-) TimerEvent: {}
+[11.465864] (next_motor_interface) StdoutLine: {'line': b'[ 77%] Linking CXX shared library libkinco_hardware_interface.so\n'}
+[11.475681] (-) TimerEvent: {}
+[11.578557] (-) TimerEvent: {}
+[11.678803] (-) TimerEvent: {}
+[11.779313] (-) TimerEvent: {}
+[11.879504] (-) TimerEvent: {}
+[11.958940] (next_motor_interface) StdoutLine: {'line': b'[ 77%] Built target kinco_hardware_interface\n'}
+[11.976879] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_generator_py\n'}
+[11.979589] (-) TimerEvent: {}
+[12.000833] (next_motor_interface) StdoutLine: {'line': b'[ 82%] Built target next_motor_interface__rosidl_generator_py\n'}
+[12.020664] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.035201] (next_motor_interface) StdoutLine: {'line': b'[ 85%] Linking C shared library rosidl_generator_py/next_motor_interface/next_motor_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.082812] (-) TimerEvent: {}
+[12.105385] (next_motor_interface) StdoutLine: {'line': b'[ 88%] Built target next_motor_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.125385] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_c__pyext\n'}
+[12.152965] (next_motor_interface) StdoutLine: {'line': b'[ 91%] Linking C shared library rosidl_generator_py/next_motor_interface/next_motor_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.182921] (-) TimerEvent: {}
+[12.224079] (next_motor_interface) StdoutLine: {'line': b'[ 94%] Built target next_motor_interface__rosidl_typesupport_c__pyext\n'}
+[12.244231] (next_motor_interface) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target next_motor_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[12.266884] (next_motor_interface) StdoutLine: {'line': b'[ 97%] Linking C shared library rosidl_generator_py/next_motor_interface/next_motor_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.285221] (-) TimerEvent: {}
+[12.335639] (next_motor_interface) StdoutLine: {'line': b'[100%] Built target next_motor_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[12.359479] (next_motor_interface) CommandEnded: {'returncode': 0}
+[12.360239] (next_motor_interface) JobProgress: {'identifier': 'next_motor_interface', 'progress': 'install'}
+[12.369658] (next_motor_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/next/next_HI/build/next_motor_interface'], 'cwd': '/home/next/next_HI/build/next_motor_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/next'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('USER', 'next'), ('SSH_CLIENT', '192.168.20.29 52468 22'), ('LC_TIME', 'th_TH.UTF-8'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/home/next/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/out/nls.messages.json","locale":"en","availableLanguages":{}}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'tty'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/next/next_ros2/install/slamware_ros_sdk/lib:/home/next/next_ros2/install/next2_msgs/lib:/home/next/next_ros2/install/laser_filters/lib:/home/next/next_UI/install/next_ros2ws_interfaces/lib:/home/next/next_UI/install/next_nav2_controller/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/next/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/next'), ('VSCODE_RECONNECTION_GRACE_TIME', '10800000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-de556c02-2a46-4d16-a64b-34d6c40cdafc.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'cat'), ('LC_MONETARY', 'th_TH.UTF-8'), ('LC_CTYPE', 'C.UTF-8'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/next/next_ros2/install:/home/next/next_UI/install'), ('APPLICATION_INSIGHTS_NO_STATSBEAT', 'true'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'next'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('TERM', 'dumb'), ('XDG_SESSION_ID', '10'), ('VSCODE_CLI_REQUIRE_TOKEN', '9f3b3924-55c7-4ce2-9cdc-29754c4cfdb5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/next/.local/bin:/home/next/.codex/tmp/arg0/codex-arg0dPoKVy:/home/next/.vscode-server/cli/servers/Stable-0870c2a0c7c0564e7631bfed2675573a94ba4455/server/bin/remote-cli:/home/next/.local/bin:/home/next/next_UI/install/map_editor/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/next/.vscode-server/extensions/openai.chatgpt-26.304.20706-linux-x64/bin/linux-x86_64'), ('VSCODE_AGENT_FOLDER', '/home/next/.vscode-server'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ROS2CLI_DISABLE_DAEMON', '1'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('GH_PAGER', 'cat'), ('LS_COLORS', ''), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/next/next_ros2/install/xbee:/home/next/next_ros2/install/sllidar_ros2:/home/next/next_ros2/install/slamware_ros_sdk:/home/next/next_ros2/install/next_ekf:/home/next/next_ros2/install/next2_teleop:/home/next/next_ros2/install/next2_system:/home/next/next_ros2/install/next2_nav2:/home/next/next_ros2/install/next2_msgs:/home/next/next_ros2/install/next2_motor:/home/next/next_ros2/install/next2_log:/home/next/next_ros2/install/next2_io:/home/next/next_ros2/install/next2_indicator:/home/next/next_ros2/install/next2_dynamic_parameter:/home/next/next_ros2/install/next2_bms:/home/next/next_ros2/install/laser_filters:/home/next/next_ros2/install/dan_ros_motor:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/next_ros2ws_interfaces:/home/next/next_UI/install/next_nav2_controller:/home/next/next_UI/install/my_bot:/home/next/next_UI/install/map_editor:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('ELECTRON_RUN_AS_NODE', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019cd148-9243-7731-a869-885a2af353a5'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('GIT_PAGER', 'cat'), ('PWD', '/home/next/next_HI/build/next_motor_interface'), ('LC_ALL', 'C.UTF-8'), ('SSH_CONNECTION', '192.168.20.29 52468 192.168.10.175 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/next/next_ros2/install/slamware_ros_sdk/local/lib/python3.10/dist-packages:/home/next/next_ros2/install/next_ekf/lib/python3.10/site-packages:/home/next/next_ros2/install/next2_msgs/local/lib/python3.10/dist-packages:/home/next/next_ros2/install/next2_bms/local/lib/python3.10/dist-packages:/home/next/next_UI/install/next_ros2ws_web/lib/python3.10/site-packages:/home/next/next_UI/install/next_ros2ws_tools/lib/python3.10/site-packages:/home/next/next_UI/install/next_ros2ws_core/lib/python3.10/site-packages:/home/next/next_UI/install/next_ros2ws_interfaces/local/lib/python3.10/dist-packages:/home/next/next_UI/install/map_editor/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/next/next_ros2/install/xbee:/home/next/next_ros2/install/sllidar_ros2:/home/next/next_ros2/install/slamware_ros_sdk:/home/next/next_ros2/install/next2_teleop:/home/next/next_ros2/install/next2_system:/home/next/next_ros2/install/next2_nav2:/home/next/next_ros2/install/next2_msgs:/home/next/next_ros2/install/next2_motor:/home/next/next_ros2/install/next2_log:/home/next/next_ros2/install/next2_io:/home/next/next_ros2/install/next2_indicator:/home/next/next_ros2/install/next2_dynamic_parameter:/home/next/next_ros2/install/next2_bms:/home/next/next_ros2/install/laser_filters:/home/next/next_ros2/install/dan_ros_motor:/home/next/next_UI/install/next_ros2ws_interfaces:/home/next/next_UI/install/next_nav2_controller:/home/next/next_UI/install/my_bot:/home/next/next_ros2/install/next_ekf:/home/next/next_UI/install/next_ros2ws_web:/home/next/next_UI/install/next_ros2ws_tools:/home/next/next_UI/install/next_ros2ws_core:/home/next/next_UI/install/map_editor:/opt/ros/humble')]), 'shell': False}
+[12.385493] (next_motor_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.387176] (-) TimerEvent: {}
+[12.387391] (next_motor_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.389699] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/rosidl_interfaces/next_motor_interface\n'}
+[12.406915] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__functions.h\n'}
+[12.420611] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__struct.h\n'}
+[12.434989] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__type_support.h\n'}
+[12.451349] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/motor_feedback.h\n'}
+[12.464671] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.477001] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/library_path.sh\n'}
+[12.489132] (-) TimerEvent: {}
+[12.495765] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/library_path.dsv\n'}
+[12.514920] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_fastrtps_c.h\n'}
+[12.526063] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.539917] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_introspection_c.h\n'}
+[12.555707] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.569335] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__builder.hpp\n'}
+[12.584602] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__struct.hpp\n'}
+[12.589552] (-) TimerEvent: {}
+[12.601396] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__traits.hpp\n'}
+[12.616699] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__type_support.hpp\n'}
+[12.630271] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/motor_feedback.hpp\n'}
+[12.643798] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.660609] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.670749] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.686947] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/include/next_motor_interface/next_motor_interface/msg/detail/motor_feedback__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.689648] (-) TimerEvent: {}
+[12.705239] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/pythonpath.sh\n'}
+[12.718654] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/pythonpath.dsv\n'}
+[12.732935] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[12.754000] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[12.767722] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[12.782877] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[12.791000] (-) TimerEvent: {}
+[12.799383] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/__init__.py\n'}
+[12.811498] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_c.c\n'}
+[12.823869] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.843296] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.852709] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/libnext_motor_interface__rosidl_generator_py.so\n'}
+[12.866267] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg/__init__.py\n'}
+[12.880319] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg/_motor_feedback.py\n'}
+[12.891107] (-) TimerEvent: {}
+[12.903429] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg/_motor_feedback_s.c\n'}
+[12.916012] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.930365] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.949318] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.968868] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.971209] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.971438] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date symlink: /home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/next_motor_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.971578] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/msg/MotorFeedback.idl\n'}
+[12.984183] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/msg/MotorFeedback.msg\n'}
+[12.992784] (-) TimerEvent: {}
+[13.005447] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface//kinco_hardware_interface.xml\n'}
+[13.020110] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/lib/libkinco_hardware_interface.so\n'}
+[13.035990] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/lift_node3.launch.py\n'}
+[13.051194] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/localization.launch.py\n'}
+[13.069116] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/nav2.launch.py\n'}
+[13.082281] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/robot_control.launch.py\n'}
+[13.093373] (-) TimerEvent: {}
+[13.102827] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/launch/slam.launch.py\n'}
+[13.111862] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/bus.yml\n'}
+[13.130824] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/left_can0.eds\n'}
+[13.142314] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/right_can0.eds\n'}
+[13.159721] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/bus_can0/ros2_controllers.yaml\n'}
+[13.178795] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/lift_node3.yaml\n'}
+[13.193466] (-) TimerEvent: {}
+[13.194133] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/mapper_params_online_async.yaml\n'}
+[13.207021] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/nav2_params.yaml\n'}
+[13.221345] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/config/slam.rviz\n'}
+[13.234827] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/face.xacro\n'}
+[13.252280] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/gazebo_control.xacro\n'}
+[13.265260] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/imu.xacro\n'}
+[13.276554] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/imu2.xacro\n'}
+[13.293826] (-) TimerEvent: {}
+[13.295310] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/inertial_macros.xacro\n'}
+[13.309993] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/lidar copy.xacro\n'}
+[13.321587] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/lidar.xacro\n'}
+[13.336633] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot.urdf.xacro\n'}
+[13.352122] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot_core copy 2.xacro\n'}
+[13.365764] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot_core copy.xacro\n'}
+[13.383036] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/robot_core.xacro\n'}
+[13.393937] (-) TimerEvent: {}
+[13.396661] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/ros2_control.xacro\n'}
+[13.411040] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/ros2_control_kinco.xacro\n'}
+[13.423268] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/urdf/ros2_control_mock.xacro\n'}
+[13.437344] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/maps/README.md\n'}
+[13.453295] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/rviz/nav2.rviz\n'}
+[13.468875] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/lib/next_motor_interface/kinco_lift_node3_std\n'}
+[13.485790] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/package_run_dependencies/next_motor_interface\n'}
+[13.494034] (-) TimerEvent: {}
+[13.510179] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/parent_prefix_path/next_motor_interface\n'}
+[13.524915] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/ament_prefix_path.sh\n'}
+[13.538600] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/ament_prefix_path.dsv\n'}
+[13.552405] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/path.sh\n'}
+[13.568249] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/environment/path.dsv\n'}
+[13.582831] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.bash\n'}
+[13.595787] (-) TimerEvent: {}
+[13.599473] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.sh\n'}
+[13.611079] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.zsh\n'}
+[13.624720] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/local_setup.dsv\n'}
+[13.643564] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/package.dsv\n'}
+[13.661643] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/packages/next_motor_interface\n'}
+[13.675086] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/next_motor_interface\n'}
+[13.690689] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[13.696544] (-) TimerEvent: {}
+[13.706003] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.715910] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.728990] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.747137] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.760570] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.775598] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.792298] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interfaceConfig.cmake\n'}
+[13.799416] (-) TimerEvent: {}
+[13.810889] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interfaceConfig-version.cmake\n'}
+[13.825846] (next_motor_interface) StdoutLine: {'line': b'-- Symlinking: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/package.xml\n'}
+[13.842877] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_generator_c.so\n'}
+[13.844268] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[13.846802] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_introspection_c.so\n'}
+[13.847268] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_c.so\n'}
+[13.847422] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.848333] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[13.849123] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_typesupport_cpp.so\n'}
+[13.900050] (-) TimerEvent: {}
+[13.918755] (next_motor_interface) StdoutLine: {'line': b"Listing '/home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface'...\n"}
+[13.918951] (next_motor_interface) StdoutLine: {'line': b"Compiling '/home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/__init__.py'...\n"}
+[13.919034] (next_motor_interface) StdoutLine: {'line': b"Listing '/home/next/next_HI/install/next_motor_interface/local/lib/python3.10/dist-packages/next_motor_interface/msg'...\n"}
+[13.927773] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/lib/libnext_motor_interface__rosidl_generator_py.so\n'}
+[13.928384] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_cExport.cmake\n'}
+[13.930318] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.930810] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.930973] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.931102] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.931237] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.931361] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cExport.cmake\n'}
+[13.932726] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.932878] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_cppExport.cmake\n'}
+[13.933000] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.933121] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.933230] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.933341] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.933454] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cppExport.cmake\n'}
+[13.933569] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/next_motor_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.933684] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_pyExport.cmake\n'}
+[13.933825] (next_motor_interface) StdoutLine: {'line': b'-- Up-to-date: /home/next/next_HI/install/next_motor_interface/share/next_motor_interface/cmake/export_next_motor_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.936839] (next_motor_interface) CommandEnded: {'returncode': 0}
+[13.978882] (next_motor_interface) JobEnded: {'identifier': 'next_motor_interface', 'rc': 0}
+[13.979305] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+CMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:40 (rosidl_target_interfaces)
+
+
+failed to create symbolic link '/home/next/next_HI/build/next_motor_interface/ament_cmake_python/next_motor_interface/next_motor_interface' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_next_motor_interface.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_next_motor_interface] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/ament_cmake_python_symlink_next_motor_interface.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

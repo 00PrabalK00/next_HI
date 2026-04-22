@@ -1,0 +1,65 @@
+options:
+  dcf_path: "@BUS_CONFIG_PATH@"
+  can_interface_name: "can0"
+  master_id: 127
+
+master:
+  node_id: 127
+  driver: "ros2_canopen::MasterDriver"
+  package: "canopen_master_driver"
+  sync_period: 10000
+
+right_wheel:
+  node_id: 1
+  dcf: "right_can0.eds"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 10
+  switching_state: 2
+  position_mode: 0
+  # Register velocity operation mode so the ros2_control hardware exports
+  # the 'joint/velocity' command interface expected by the URDF.
+  velocity_mode: 3
+  revision_number: 0
+  command_interface: velocity
+  # Minimal SDO configuration - remove objects that don't exist on your hardware
+  sdo:
+    - {index: 0x6060, sub_index: 0, value: 3}  # Operation mode = Profiled Velocity
+  # Keep PDO configuration minimal
+  tpdo:
+    1:
+      enabled: true
+      cob_id: 0x181
+      transmission: 0x01
+  rpdo:
+    1:
+      enabled: true
+      cob_id: 0x171
+
+left_wheel:
+  node_id: 2
+  dcf: "left_can0.eds"
+  driver: "ros2_canopen::Cia402Driver"
+  package: "canopen_402_driver"
+  period: 10
+  switching_state: 2
+  position_mode: 0
+  # Register velocity operation mode so the ros2_control hardware exports
+  # the 'joint/velocity' command interface expected by the URDF.
+  velocity_mode: 3
+  revision_number: 0
+  command_interface: velocity
+  # Minimal SDO configuration - remove objects that don't exist on your hardware
+  sdo:
+    - {index: 0x6060, sub_index: 0, value: 3}  # Operation mode = Profiled Velocity
+  # Keep PDO configuration minimal
+  tpdo:
+    1:
+      enabled: true
+      cob_id: 0x182
+      transmission: 0x01
+  rpdo:
+    1:
+      enabled: true
+      cob_id: 0x172
+

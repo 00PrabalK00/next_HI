@@ -1,0 +1,1 @@
+/home/next/next_HI/build/next_motor_interface/rosidl_cmake/rosidl_cmake-extras.cmake

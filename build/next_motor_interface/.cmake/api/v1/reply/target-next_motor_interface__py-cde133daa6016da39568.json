@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/next/next_HI/build/next_motor_interface/next_motor_interface__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "next_motor_interface::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "next_motor_interface__py::@af158bec9f3998f83b65",
+	"name" : "next_motor_interface__py",
+	"paths" : 
+	{
+		"build" : "next_motor_interface__py",
+		"source" : "/home/next/next_HI/build/next_motor_interface/next_motor_interface__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/next/next_HI/build/next_motor_interface/next_motor_interface__py/CMakeFiles/next_motor_interface__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/next/next_HI/build/next_motor_interface/next_motor_interface__py/CMakeFiles/next_motor_interface__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/next/next_HI/build/next_motor_interface/rosidl_generator_py/next_motor_interface/_next_motor_interface_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

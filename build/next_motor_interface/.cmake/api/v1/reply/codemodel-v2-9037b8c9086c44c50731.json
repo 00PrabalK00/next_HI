@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-1d98b27cffae47776399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "next_motor_interface__py",
+					"jsonFile" : "directory-next_motor_interface__py-d423677568dce14d777b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/next/next_HI/build/next_motor_interface/next_motor_interface__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "next_motor_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_next_motor_interface_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_next_motor_interface_egg-69d21700b57c91e499fc.json",
+					"name" : "ament_cmake_python_build_next_motor_interface_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_next_motor_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_next_motor_interface-38dc58ccd33c5eb00628.json",
+					"name" : "ament_cmake_python_symlink_next_motor_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinco_hardware_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinco_hardware_interface-9972db8a529bbe832a89.json",
+					"name" : "kinco_hardware_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kinco_lift_node3_std::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kinco_lift_node3_std-cb463186584fbb3dff29.json",
+					"name" : "kinco_lift_node3_std",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface-d4edb318e58cd1baff9b.json",
+					"name" : "next_motor_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__cpp-0de24d321c9f259066e3.json",
+					"name" : "next_motor_interface__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "next_motor_interface__py::@af158bec9f3998f83b65",
+					"jsonFile" : "target-next_motor_interface__py-cde133daa6016da39568.json",
+					"name" : "next_motor_interface__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_generator_c-ba183d855cfb93899091.json",
+					"name" : "next_motor_interface__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_generator_py-538169ef078279514058.json",
+					"name" : "next_motor_interface__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_c-f6842ed23679b11cc25e.json",
+					"name" : "next_motor_interface__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_c__pyext-31ff9b83fc25f1578832.json",
+					"name" : "next_motor_interface__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_cpp-ea0cd18154e4e7b3713b.json",
+					"name" : "next_motor_interface__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_fastrtps_c-65a6178f636b51894526.json",
+					"name" : "next_motor_interface__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_fastrtps_c__pyext-3c4f5dcbe2d69bd8ad6e.json",
+					"name" : "next_motor_interface__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_fastrtps_cpp-c4c635892189d550a63d.json",
+					"name" : "next_motor_interface__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_introspection_c-3780968d9b0e8215b353.json",
+					"name" : "next_motor_interface__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_introspection_c__pyext-1a4d589c1a40cd260b11.json",
+					"name" : "next_motor_interface__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface__rosidl_typesupport_introspection_cpp-70fa6a9fd6334049b6dc.json",
+					"name" : "next_motor_interface__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "next_motor_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-next_motor_interface_uninstall-3077f16bcd65c5347a3b.json",
+					"name" : "next_motor_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-de9f25aae2308dae64e1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/next/next_HI/build/next_motor_interface",
+		"source" : "/home/next/next_HI/src/next_motor_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
