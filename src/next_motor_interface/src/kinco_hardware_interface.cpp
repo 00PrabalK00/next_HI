@@ -702,42 +702,95 @@ public:
     }
   }
 
+  // SDO write with confirmation: waits for the drive's ack (0x60) or abort (0x80) response.
+  // Returns true on success, false on abort or timeout.
+  bool sdo_write_u16_confirmed(uint8_t motor_id, uint16_t index, uint8_t subindex, uint16_t value, double timeout_s = 0.5) {
+    uint8_t req[8] = {
+      0x2B,
+      static_cast<uint8_t>(index & 0xFF), static_cast<uint8_t>((index >> 8) & 0xFF),
+      subindex,
+      static_cast<uint8_t>(value & 0xFF), static_cast<uint8_t>((value >> 8) & 0xFF),
+      0x00, 0x00
+    };
+    send_sdo(motor_id, req);
+    struct can_frame frame{};
+    const double start = static_cast<double>(std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now().time_since_epoch()).count()) / 1e6;
+    while (true) {
+      const double now = static_cast<double>(std::chrono::duration_cast<std::chrono::microseconds>(
+                         std::chrono::high_resolution_clock::now().time_since_epoch()).count()) / 1e6;
+      if ((now - start) > timeout_s) break;
+      ssize_t n = ::recv(can_socket_, &frame, sizeof(frame), MSG_DONTWAIT);
+      if (n <= 0) { usleep(2000); continue; }
+      if ((frame.can_id & 0x7FF) != static_cast<uint32_t>(0x580 + motor_id) || frame.can_dlc != 8) continue;
+      const uint16_t resp_index = static_cast<uint16_t>(frame.data[1]) | (static_cast<uint16_t>(frame.data[2]) << 8);
+      const uint8_t resp_subindex = frame.data[3];
+      if (resp_index != index || resp_subindex != subindex) continue;
+      if (frame.data[0] == 0x80) {
+        const uint32_t abort_code =
+          static_cast<uint32_t>(frame.data[4]) |
+          (static_cast<uint32_t>(frame.data[5]) << 8) |
+          (static_cast<uint32_t>(frame.data[6]) << 16) |
+          (static_cast<uint32_t>(frame.data[7]) << 24);
+        RCLCPP_ERROR(rclcpp::get_logger("KincoHardwareInterface"),
+          "SDO write ABORT id=%u 0x%04x:0x%02x abort=0x%08x", motor_id, index, subindex, abort_code);
+        return false;
+      }
+      if ((frame.data[0] & 0xE0) == 0x60) {
+        return true;  // drive confirmed the write
+      }
+    }
+    RCLCPP_WARN(rclcpp::get_logger("KincoHardwareInterface"),
+      "SDO write timeout id=%u 0x%04x:0x%02x", motor_id, index, subindex);
+    return false;
+  }
+
   // Initialization sequence for node 2, run once every time the hardware interface starts.
-  // Mirrors:
-  //   1) Read  DIN1 function          (0x2010:01) -- for logging
-  //   2) Clear DIN1 function to 0x0000 (0x2010:01) -- remove ENABLE mapping
-  //   3) Read  back to verify
-  //   4) Fault reset  (controlword 0x0080)
-  //   5) Set mode of operation to -3 / 0xFD  (0x6060)
-  //   6) Shutdown     (controlword 0x0006)
-  //   7) Switch on    (controlword 0x0007)
-  //   8) Enable op    (controlword 0x000F)
-  //   9) Read statusword  (0x6041, logged)
-  //  10) Read controlword (0x6040, logged)
   void init_node2_sequence() {
     constexpr uint8_t node_id = 2;
     RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"), "Node2 init sequence starting...");
 
-    // 1) Read DIN1 function
+    // 1) Read DIN1 function (0x2010:03)
     uint16_t din1_func = 0;
-    if (sdo_read_u16(node_id, 0x2010, 0x01, din1_func)) {
+    if (sdo_read_u16(node_id, 0x2010, 0x03, din1_func)) {
       RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function (before clear) = 0x%04x", din1_func);
     } else {
       RCLCPP_WARN(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function read failed");
     }
 
-    // 2) Clear DIN1 function so it is no longer "Enable"
-    {
-      uint8_t cmd[] = {0x2B, 0x10, 0x20, 0x01, 0x00, 0x00, 0x00, 0x00};
-      send_sdo(node_id, cmd);
-      RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function cleared to 0x0000");
-    }
+    // 2) Clear DIN1 function if it is set.
+    // Configuration objects on Kinco drives require the node to be in Pre-Operational
+    // before writes will be accepted. Transition: Operational -> Pre-Op -> write -> Operational.
+    if (din1_func != 0x0000) {
+      nmt_service(node_id, 0x80);  // Pre-Operational
+      usleep(100000);
 
-    // 3) Read back DIN1 function to verify it is now 0x0000
-    if (sdo_read_u16(node_id, 0x2010, 0x01, din1_func)) {
-      RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function (after clear) = 0x%04x", din1_func);
+      bool write_ok = false;
+      for (int attempt = 1; attempt <= 3 && !write_ok; ++attempt) {
+        write_ok = sdo_write_u16_confirmed(node_id, 0x2010, 0x03, 0x0000);
+        if (!write_ok) {
+          RCLCPP_WARN(rclcpp::get_logger("KincoHardwareInterface"),
+            "Node2: DIN1 clear attempt %d/3 failed, retrying...", attempt);
+          usleep(50000);
+        }
+      }
+      if (write_ok) {
+        RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function write confirmed");
+      } else {
+        RCLCPP_ERROR(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function write FAILED after 3 attempts");
+      }
+
+      // 3) Read back to verify
+      if (sdo_read_u16(node_id, 0x2010, 0x03, din1_func)) {
+        RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"),
+          "Node2: DIN1 function (after clear) = 0x%04x %s",
+          din1_func, din1_func == 0x0000 ? "(OK)" : "(STILL SET - drive may need power cycle)");
+      }
+
+      nmt_service(node_id, 0x01);  // Back to Operational
+      usleep(100000);
     } else {
-      RCLCPP_WARN(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function read-back failed");
+      RCLCPP_INFO(rclcpp::get_logger("KincoHardwareInterface"), "Node2: DIN1 function already 0x0000, no write needed");
     }
 
     // 4) Fault reset
